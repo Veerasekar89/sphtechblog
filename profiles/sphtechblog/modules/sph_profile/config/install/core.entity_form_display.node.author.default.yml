@@ -1,0 +1,87 @@
+uuid: 071cc34b-f1c6-4471-9f90-f116f058d72a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.author.field_description
+    - field.field.node.author.field_designation
+    - field.field.node.author.field_e_mail_address
+    - field.field.node.author.field_full_name
+    - field.field.node.author.field_photo
+    - image.style.portrait60x70
+    - node.type.author
+  module:
+    - image_widget_crop
+    - path
+id: node.author.default
+targetEntityType: node
+bundle: author
+mode: default
+content:
+  field_description:
+    weight: 3
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_designation:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_e_mail_address:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_full_name:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_photo:
+    weight: 4
+    settings:
+      show_default_crop: true
+      preview_image_style: portrait60x70
+      crop_preview_image_style: portrait60x70
+      crop_list:
+        - portrait60x70
+      crop_types_required:
+        - portrait60x70
+      progress_indicator: throbber
+      show_crop_area: false
+      warn_multiple_usages: false
+    third_party_settings: {  }
+    type: image_widget_crop
+    region: content
+  path:
+    type: path
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 6
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  promote: true
+  sticky: true
+  title: true
+  uid: true

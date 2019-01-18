@@ -1,0 +1,25 @@
+uuid: 89990e01-7f59-401e-b61c-5ba9e06f3f2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.landscape450x300
+  module:
+    - crop
+name: landscape450x300
+label: Landscape450x300
+effects:
+  98d39091-c944-4d44-81cc-6de9c7b952cc:
+    uuid: 98d39091-c944-4d44-81cc-6de9c7b952cc
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: landscape450x300
+  16ee9aa0-0148-4fab-a8af-1441b566db5f:
+    uuid: 16ee9aa0-0148-4fab-a8af-1441b566db5f
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 450
+      height: 300
+      anchor: center-center

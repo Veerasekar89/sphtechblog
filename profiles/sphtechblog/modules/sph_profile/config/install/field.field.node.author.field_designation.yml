@@ -1,0 +1,19 @@
+uuid: 32b30508-f4dd-42bd-b04d-a0ceeda91a4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_designation
+    - node.type.author
+id: node.author.field_designation
+field_name: field_designation
+entity_type: node
+bundle: author
+label: Designation
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

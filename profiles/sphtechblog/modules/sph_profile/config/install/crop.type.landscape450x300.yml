@@ -1,0 +1,12 @@
+uuid: d85c6ba6-877c-4bb7-9892-42c7d1dd8548
+langcode: en
+status: true
+dependencies: {  }
+label: Landscape450x300
+id: landscape450x300
+description: Landscape450x300
+aspect_ratio: '2:1'
+soft_limit_width: 450
+soft_limit_height: 300
+hard_limit_width: null
+hard_limit_height: null

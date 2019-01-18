@@ -1,0 +1,12 @@
+uuid: 08ba0f87-1732-42d3-8ae8-69663b76d460
+langcode: en
+status: true
+dependencies: {  }
+label: portrait60x70
+id: portrait60x70
+description: portrait60x70
+aspect_ratio: '1:1'
+soft_limit_width: 60
+soft_limit_height: 70
+hard_limit_width: null
+hard_limit_height: null

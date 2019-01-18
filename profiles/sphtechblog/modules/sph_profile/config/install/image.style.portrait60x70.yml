@@ -1,0 +1,25 @@
+uuid: f9759ed0-9d1c-49e6-98ea-e3b64438c648
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.portrait60x70
+  module:
+    - crop
+name: portrait60x70
+label: portrait60x70
+effects:
+  92aaf3ab-a594-47e0-8a3a-65d84f7c0602:
+    uuid: 92aaf3ab-a594-47e0-8a3a-65d84f7c0602
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: portrait60x70
+  946dbb66-4641-482f-871e-9b79facf1414:
+    uuid: 946dbb66-4641-482f-871e-9b79facf1414
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 60
+      height: 70
+      anchor: center-center
