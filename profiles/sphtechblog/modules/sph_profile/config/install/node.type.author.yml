@@ -1,6 +1,10 @@
+uuid: 042bd356-356c-4211-8743-866ae940ddbd
 langcode: en
 status: true
-name: 'Author'
+dependencies: {  }
+_core:
+  default_config_hash: Iw2XNqFiBa4R9Fm9IBfIErrm-HczIjM5XWzZfxwctLM
+name: Author
 type: author
 description: 'Content type that can be used to add <em>Author information</em>.'
 help: ''

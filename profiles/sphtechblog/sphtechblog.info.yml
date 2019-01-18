@@ -1,4 +1,4 @@
-name: 'SPHTechBlog'
+name: 'SPHTechBlog Standard'
 type: profile
 description: 'Install SPHTechBlog Standard.'
 # version: VERSION
@@ -40,6 +40,8 @@ install:
   - tour
   - automated_cron
   - crop
+  - image_widget_crop
+  - imagefield_slideshow
   - sph_profile
 themes:
   - bartik

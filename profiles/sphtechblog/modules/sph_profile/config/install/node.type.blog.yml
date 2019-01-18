@@ -1,9 +1,20 @@
+uuid: 198a7664-8a3a-49ba-9e22-1f6f94e2c861
 langcode: en
 status: true
-name: 'Blog'
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: nHI_rOVSZ9SsMPTALwWNPY6VF6WKCFlDg8lr-BqdVhA
+name: Blog
 type: blog
 description: 'Content type that can be used to add <em>Blog</em>.'
 help: ''
 new_revision: false
-preview_mode: 1
+preview_mode: 2
 display_submitted: true
