@@ -1,0 +1,9 @@
+langcode: en
+status: true
+name: 'Author'
+type: author
+description: 'Content type that can be used to add <em>Author information</em>.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

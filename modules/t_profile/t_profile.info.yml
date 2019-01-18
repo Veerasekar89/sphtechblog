@@ -1,0 +1,10 @@
+name: T Profile
+description: 'Provide Content type creation and fields creation.'
+# core: 8.x
+package: sph
+type: module
+# Information added by Drupal.org packaging script on 2018-01-19
+version: '8.x-1.5'
+core: '8.x'
+project: 't_profile'
+datestamp: 1516357097

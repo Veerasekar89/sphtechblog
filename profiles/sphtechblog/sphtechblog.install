@@ -1,0 +1,31 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the sphtechblog installation profile.
+ */
+
+use Drupal\user\Entity\User;
+use Drupal\shortcut\Entity\Shortcut;
+use Drupal\taxonomy\Entity\Vocabulary;
+
+/**
+ * Implements hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ *
+ * @see system_install()
+ */
+function sphtechblog_install() {
+  include_once DRUPAL_ROOT.'/core/profiles/standard/standard.install';
+  standard_install();
+  
+  $vocabulary = Vocabulary::create(array(
+    'vid' => 'keywords',
+    'name' => 'Key Words',
+    'description' => 'Key Words for blog',
+  ))->save();
+
+
+ 
+}
